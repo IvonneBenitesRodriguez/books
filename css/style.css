@@ -45,3 +45,88 @@ li a {
 span a {
   text-decoration: none;
 }
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30%;
+
+}
+input[type=text]{
+    padding: 10px;
+    border: 1px solid pink;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border: 1px solid fucsia;
+    outline: none;
+}
+input[type=text]:focus{
+    background-color: gray;
+    color: white;
+    border: 3px solid fuchsia;
+}
+button#addButton{
+    padding: 10px 27px;
+    padding: px;
+    background: pink;
+    border: 3px solid fuchsia;
+    color: fuchsia;
+    font-size: 0.7rem;
+}
+footer{
+    padding: 40px;
+    height: 20vh;
+    text-align: center;
+    background-color: black;    
+    color: antiquewhite;
+}
+.contact{
+    text-align: center;
+    padding-top: 60px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-part{
+    display: block;
+    height: 50vh;
+    text-align: center;
+}
+
+span#timeDisplay{
+    background-color: pink;
+    height: 8vh;
+    display: block;
+    padding-top: 20px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+#bookList tr{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+#bookList tr:nth-child(odd){
+    background-color: lightgreen;
+}
+
+div,
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    margin: 30px auto;
+    text-align: center;
+}
+td{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 20px;
+}
